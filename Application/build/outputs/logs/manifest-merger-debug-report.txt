@@ -1,0 +1,185 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:20:1-58:12
+INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:20:1-58:12
+INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:20:1-58:12
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\0a05bb853fd11ac14a1c620db42c0168\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\cd7d0b9bfe6d160f56327a4875bd3176\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\4fb216f29d1fffa2ea41245def717d61\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\43ead4b0a24f5dd0ea056ce9dff53f2a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\568f08b4b74faffbcdbe2012c2738aeb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\d3b698ea3165230495665b4a9a9b7b59\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\2e8d7a8bafb996946ccf92cd12042f2d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\a4a2c9c8b8cbef72e32054906c49aa8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\b74aee972f4eaf3485f038ae8398a101\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\5931c4d61ca49d6fba393f7a54101f90\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\bbd5a6c42ec7e2d7a72d5435329fa48a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\ef0dbd34b306d9658408a46c0fb8f042\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\03f3e12362c47bc5166bfe33c3abdf39\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\b082eccb625bfaab98b8a34226eb1666\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\4dfc28ca6c2d7c1bffa5cf997831acac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\758dc54f65db3b0b665046510e548e23\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\2e57f67250d6db25f382f86950edf38f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\f97c470239416a9f06923a0f1ccf0b0b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\471902b3ead927f61de61c622f1083ea\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\9681441d2e5519482fd1421ab114aa05\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\a2670a024f631adf101c1170d932f543\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\49d1caa3b2fa1b0923004308866d5f31\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\bb297f5ca96560417f24398dbd2fc945\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\743579cf8bb6f70fa767f33224f71a9c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\abbb51350666bde18c791837ad1b3dc6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\f742c3a7473cc6bca89a57379f5e65f2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\7f7b8b4ce46cc00fcef4853ca52ff9ac\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\a8cf98d829dc4acacd8eb4f093564009\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\3b704dd976386d7b27f02083b6b17143\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\8e43ff5d48a98deaae80453d2deff6e4\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:20:1-58:12
+INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:20:1-58:12
+	package
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:21:5-45
+	android:versionName
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:23:5-30
+		INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:20:11-69
+	android:versionCode
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:22:5-28
+		INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+uses-feature#android.hardware.Excursion1
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:31:5-87
+	android:required
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:31:62-85
+	android:name
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:31:19-61
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:33:5-67
+	android:name
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:33:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:34:5-73
+	android:name
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:34:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:38:5-79
+	android:name
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:38:22-76
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:39:5-89
+	android:required
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:39:64-87
+	android:name
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:39:19-63
+application
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:42:5-56:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\471902b3ead927f61de61c622f1083ea\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\471902b3ead927f61de61c622f1083ea\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\9681441d2e5519482fd1421ab114aa05\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\9681441d2e5519482fd1421ab114aa05\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\471902b3ead927f61de61c622f1083ea\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:42:18-44
+	android:theme
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:46:9-56
+activity#com.example.android.Excursion1.DeviceScanActivity
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:47:9-53:20
+	android:label
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:48:13-39
+	android:name
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:47:19-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:49:13-52:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:50:17-68
+	android:name
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:51:17-76
+	android:name
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:51:27-74
+activity#com.example.android.Excursion1.DeviceControlActivity
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:54:9-58
+	android:name
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:54:19-56
+service#com.example.android.Excursion1.BluetoothLeService
+ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:55:9-77
+	android:enabled
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:55:53-75
+	android:name
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml:55:18-52
+uses-sdk
+INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\0a05bb853fd11ac14a1c620db42c0168\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\0a05bb853fd11ac14a1c620db42c0168\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\cd7d0b9bfe6d160f56327a4875bd3176\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\cd7d0b9bfe6d160f56327a4875bd3176\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\4fb216f29d1fffa2ea41245def717d61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\4fb216f29d1fffa2ea41245def717d61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\43ead4b0a24f5dd0ea056ce9dff53f2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\43ead4b0a24f5dd0ea056ce9dff53f2a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\568f08b4b74faffbcdbe2012c2738aeb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\568f08b4b74faffbcdbe2012c2738aeb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\d3b698ea3165230495665b4a9a9b7b59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\d3b698ea3165230495665b4a9a9b7b59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\2e8d7a8bafb996946ccf92cd12042f2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\2e8d7a8bafb996946ccf92cd12042f2d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\a4a2c9c8b8cbef72e32054906c49aa8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\a4a2c9c8b8cbef72e32054906c49aa8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\b74aee972f4eaf3485f038ae8398a101\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\b74aee972f4eaf3485f038ae8398a101\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\5931c4d61ca49d6fba393f7a54101f90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\5931c4d61ca49d6fba393f7a54101f90\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\bbd5a6c42ec7e2d7a72d5435329fa48a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\bbd5a6c42ec7e2d7a72d5435329fa48a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\ef0dbd34b306d9658408a46c0fb8f042\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\ef0dbd34b306d9658408a46c0fb8f042\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\03f3e12362c47bc5166bfe33c3abdf39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\03f3e12362c47bc5166bfe33c3abdf39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\b082eccb625bfaab98b8a34226eb1666\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\b082eccb625bfaab98b8a34226eb1666\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\4dfc28ca6c2d7c1bffa5cf997831acac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\4dfc28ca6c2d7c1bffa5cf997831acac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\758dc54f65db3b0b665046510e548e23\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\758dc54f65db3b0b665046510e548e23\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\2e57f67250d6db25f382f86950edf38f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\2e57f67250d6db25f382f86950edf38f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\f97c470239416a9f06923a0f1ccf0b0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\f97c470239416a9f06923a0f1ccf0b0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\471902b3ead927f61de61c622f1083ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\471902b3ead927f61de61c622f1083ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\9681441d2e5519482fd1421ab114aa05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\9681441d2e5519482fd1421ab114aa05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\a2670a024f631adf101c1170d932f543\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\a2670a024f631adf101c1170d932f543\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\49d1caa3b2fa1b0923004308866d5f31\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\49d1caa3b2fa1b0923004308866d5f31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\bb297f5ca96560417f24398dbd2fc945\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\bb297f5ca96560417f24398dbd2fc945\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\743579cf8bb6f70fa767f33224f71a9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\743579cf8bb6f70fa767f33224f71a9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\abbb51350666bde18c791837ad1b3dc6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\abbb51350666bde18c791837ad1b3dc6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\f742c3a7473cc6bca89a57379f5e65f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\f742c3a7473cc6bca89a57379f5e65f2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\7f7b8b4ce46cc00fcef4853ca52ff9ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\7f7b8b4ce46cc00fcef4853ca52ff9ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\a8cf98d829dc4acacd8eb4f093564009\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\a8cf98d829dc4acacd8eb4f093564009\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\3b704dd976386d7b27f02083b6b17143\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\3b704dd976386d7b27f02083b6b17143\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\8e43ff5d48a98deaae80453d2deff6e4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\jettr\.gradle\caches\transforms-2\files-2.1\8e43ff5d48a98deaae80453d2deff6e4\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jettr\AndroidStudioProjects\Excursion1\Application\src\main\AndroidManifest.xml
