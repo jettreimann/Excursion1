@@ -667,6 +667,7 @@ id custom
 id customPanel
 id decor_content_parent
 id default_activity_button
+id device_RSSI
 id device_address
 id device_name
 id disableHome
@@ -694,6 +695,7 @@ id line1
 id line3
 id listMode
 id list_item
+id mainListGatt
 id media_actions
 id menu_connect
 id menu_disconnect
@@ -717,6 +719,11 @@ id radio
 id right
 id right_icon
 id right_side
+id rssi_button
+id rssi_label
+id rssi_value_display
+id sample_count_display
+id sample_count_label
 id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -865,6 +872,7 @@ string ble_not_supported
 string connected
 string disconnected
 string error_bluetooth_not_supported
+string get_rssi_button
 string intro_message
 string label_data
 string label_device_address
@@ -874,6 +882,9 @@ string menu_disconnect
 string menu_scan
 string menu_stop
 string no_data
+string rssi_label
+string rssi_value_display
+string samp_count_label
 string search_menu_title
 string send_message_text
 string status_bar_notification_info_overflow

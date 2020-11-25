@@ -24,8 +24,16 @@
     <string name="title_devices">Excursion 1</string>
     <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
 
-    //Send message button
+    <!--//Send message button-->
     <string name="send_message_text">Send Message To Board</string>
+    <!--//RSSI Button-->
+    <string name="get_rssi_button">Get RSSI Sample</string>
+    <!--//RSSI Label-->
+    <string name="rssi_label">Moving Average RSSI: </string>
+    <!--//RSSI value display -->
+    <string name="rssi_value_display">(INSERT RSSI READING HERE) </string>
+    <!--//sample counter label -->
+    <string name="samp_count_label">Number of Samples: </string>
 
     <string name="unknown_device">Unknown device</string>
     <string name="unknown_characteristic">Unknown characteristic</string>

@@ -41,6 +41,9 @@ import java.math.BigInteger;
  * given Bluetooth LE device.
  */
 public class BluetoothLeService extends Service {
+    // MY RSSI VALUE
+    public int rssi_sample_value;
+
     private final static String TAG = BluetoothLeService.class.getSimpleName();
 
     private BluetoothManager mBluetoothManager;
@@ -76,6 +79,7 @@ public class BluetoothLeService extends Service {
             if (newState == BluetoothProfile.STATE_CONNECTED) {
                 intentAction = ACTION_GATT_CONNECTED;
                 mConnectionState = STATE_CONNECTED;
+
                 broadcastUpdate(intentAction);
                 Log.i(TAG, "Connected to GATT server.");
                 // Attempts to discover services after successful connection.
@@ -112,6 +116,14 @@ public class BluetoothLeService extends Service {
         public void onCharacteristicChanged(BluetoothGatt gatt,
                                             BluetoothGattCharacteristic characteristic) {
             broadcastUpdate(ACTION_DATA_AVAILABLE, characteristic);
+        }
+
+        //my guess
+        @Override
+        public void onReadRemoteRssi (BluetoothGatt gatt, int rssi, int status)
+        {
+            //Log.w(TAG, String.valueOf(rssi));
+            rssi_sample_value = rssi;
         }
     };
 
@@ -300,6 +312,39 @@ public class BluetoothLeService extends Service {
                 (byte)((data >> 0) & 0xff),
         };
     }
+
+    //my function for RSSI
+    public int readRSSI() {
+        //Log.w(TAG, "RSSI Button Pressed");
+        mBluetoothGatt.readRemoteRssi();
+        //Log.w(TAG, String.valueOf(rssi_sample_value));
+        return rssi_sample_value;
+    }
+
+    //my function to add an RSSI sample to the array
+    public void getRSSIsample(int samp_count, int[] rssi_array, int arr_size)
+    {
+        int index = samp_count % arr_size;
+        rssi_array[index] = readRSSI();
+    }
+
+    //my function to update the average RSSI
+    public int updateAverageRSSI(int samp_count, int[] rssi_array, int arr_size)
+    {
+        //getRSSIsample(int samp_count, int[] rssi_array, int arr_size);
+        int index = samp_count % arr_size; //combine this and next line into one line
+        rssi_array[index] = readRSSI();
+        int ave = 0;
+        for(int i = 0; i < arr_size; i++)
+        {
+            ave = ave + rssi_array[i];
+        }
+        ave = ave/arr_size;
+        Log.w(TAG, "MOVING AVERAGE RSSI");
+        Log.w(TAG, String.valueOf(rssi_sample_value));
+        return ave;
+    }
+
 
     /**
      * Request a read on a given {@code BluetoothGattCharacteristic}. The read result is reported

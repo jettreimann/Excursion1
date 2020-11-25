@@ -39,6 +39,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * For a given BLE device, this Activity provides the user interface to connect, display data,
@@ -63,9 +65,23 @@ public class DeviceControlActivity extends Activity {
     private boolean mConnected = false;
     private BluetoothGattCharacteristic mNotifyCharacteristic;
 
-    //my button
+    //my message button
     private Button mSendButton;
+    //my RSSI button
+    private Button mRSSIbutton;
+    //public int rssi_val;
+    //my RSSI value display textview
+    private TextView mRSSIdisplay;
+    //my sample number textview
+    private TextView mSampleNumDisplay;
 
+    // my sample counter int
+    public int g_sample_count = 0;
+    // the number of RSSI samples for the the average
+    public final static int SAMPLE_NUM = 12;
+    //array of RSSI measurements
+    int[] g_rssi_array = new int[SAMPLE_NUM];
+;
 
     private final String LIST_NAME = "NAME";
     private final String LIST_UUID = "UUID";
@@ -174,9 +190,40 @@ public class DeviceControlActivity extends Activity {
         mGattServicesList.setOnChildClickListener(servicesListClickListner);
         mConnectionState = (TextView) findViewById(R.id.connection_state);
         //mDataField = (TextView) findViewById(R.id.data_value);
+        mRSSIdisplay = (TextView) findViewById(R.id.rssi_value_display);
 
         //my send message button
         mSendButton = (Button) findViewById(R.id.message_button);
+
+        //timer display in GUI
+        //mSampleNumDisplay = (TextView) findViewById(R.id.sample_count_display);
+        mSampleNumDisplay = (TextView) findViewById(R.id.sample_count_display);
+
+        //setting up array to initially have all -100
+        for(int i = 0; i < SAMPLE_NUM; i++)
+        {
+            g_rssi_array[i] = -125;
+        }
+
+
+        //initialize Timer/TimerTask
+        Timer mTimer = new Timer();
+        TimerTask mTimerTask = new TimerTask() {
+            @Override
+            public void run() {
+                g_sample_count++;
+                mSampleNumDisplay.setText(String.valueOf(g_sample_count));
+                //mRSSIdisplay.setText(String.valueOf(mBluetoothLeService.readRSSI()));
+                mRSSIdisplay.setText(String.valueOf(mBluetoothLeService.updateAverageRSSI(g_sample_count, g_rssi_array, SAMPLE_NUM)));
+            }
+        };
+        //starting the timer and choosing when to perform task
+        mTimer.schedule(mTimerTask, 500,2000);
+        //the first RSSI reading is always zero. So I'm going to call it once below and not
+        //catch the first reading.
+        //int dummy = mBluetoothLeService.readRSSI();
+
+
 
         mSendButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -185,6 +232,19 @@ public class DeviceControlActivity extends Activity {
                 mBluetoothLeService.writeCharacteristic(1);
             }
         });
+
+        //my RSSI button
+        mRSSIbutton = (Button) findViewById(R.id.rssi_button);
+
+        mRSSIbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.w(TAG, "The RSSI Button Works");
+                //rssi_val = mBluetoothLeService.readRSSI();
+                //mRSSIdisplay.setText(String.valueOf(mBluetoothLeService.readRSSI()));
+            }
+        });
+
 
 
         getActionBar().setTitle(mDeviceName);
